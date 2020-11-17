@@ -1,0 +1,25 @@
+.wrapper {
+  box-sizing: border-box;
+  min-height: 60px;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+
+  > a {
+    color: black;
+    justify-self: flex-start;
+    &:hover {
+      color: #1890ff;
+    }
+
+    > :first-child {
+      font-size: 35px;
+      color: inherit;
+    }
+  }
+  > :last-child {
+    margin: 0 auto;
+    justify-self: center;
+  }
+}

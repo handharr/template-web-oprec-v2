@@ -1,0 +1,8 @@
+.timeline-lime > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: limegreen !important;
+  border-color: limegreen !important;
+}
+.timeline-green > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: green !important;
+  border-color: green !important;
+}

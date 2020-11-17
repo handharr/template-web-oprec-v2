@@ -1,0 +1,15 @@
+.timeline {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 25px 15px;
+}
+
+.lime > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: lime !important;
+  border-color: lime !important;
+}
+.green > .ant-steps-item-container > .ant-steps-item-icon {
+  background-color: green !important;
+  border-color: green !important;
+}
