@@ -1,9 +1,15 @@
+$mobile: 500px;
+
 .wrapper {
   display: flex;
   align-items: center;
 
   > :first-child {
     font-size: 45px;
+
+    @media screen and (max-width: $mobile) {
+      font-size: 30px;
+    }
   }
 
   .titleWrapper {
@@ -19,6 +25,10 @@
     h1 {
       font-weight: 700;
       line-height: normal;
+
+      @media screen and (max-width: $mobile) {
+        font-size: 25px;
+      }
     }
   }
 }

@@ -46,7 +46,21 @@ export const Langkah = [
     title: "Upload ke Google Drive",
     desc: "Buat folder pada Google Drive dan Upload berkas yang diperlukan",
   },
+  {
+    title: "Login",
+    desc: "Lanjutkan pendaftaran dengan login",
+  },
+  {
+    title: "Isi Form Online",
+    desc: "Isi form online yang tersedia",
+  },
 ];
+
+export const TextHasil = {
+  terdaftar: "Pantau terus sosial media BEM Filkom untuk informasi selanjutnya",
+  diterima: "Selanjutnya kamu akan dihubungi lebih lanjut",
+  ditolak: "Jangan menyerah!! masih banyak kesempatan",
+};
 
 export const FieldForm = [
   {

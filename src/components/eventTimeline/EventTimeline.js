@@ -20,7 +20,14 @@ const changeColor = (value) => {
 const EventTimeline = () => {
   return (
     <div className={styles.timeline}>
-      <Steps current={0}>
+      <Steps
+        current={0}
+        direction={
+          window.innerWidth <= 768 && window.innerWidth >= 500
+            ? "vertical"
+            : "horizontal"
+        }
+      >
         {Timeline.map((val) => {
           return (
             <Step

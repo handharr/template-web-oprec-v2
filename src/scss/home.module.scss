@@ -1,3 +1,5 @@
+$mobile: 500px;
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -9,10 +11,19 @@
     margin: 0 auto;
     padding: 25px 0;
 
+    @media screen and (max-width: $mobile) {
+      width: 100%;
+      padding: 25px 10px;
+    }
+
     .deskripsi {
-      margin-left: 55px;
       font-size: 15px;
       text-align: justify;
+
+      @media screen and (max-width: $mobile) {
+        margin-left: 0px;
+        padding: 0 20px;
+      }
     }
 
     .info {

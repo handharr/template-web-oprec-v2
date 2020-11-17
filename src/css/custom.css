@@ -6,3 +6,9 @@
   background-color: green !important;
   border-color: green !important;
 }
+
+@media screen and (max-width: 500px) {
+  .ant-result-title {
+    line-height: normal !important;
+  }
+}
